@@ -1,0 +1,102 @@
+{
+  "generated_at": "2026-03-17T00:02:11.449Z",
+  "repo": "vishakjai/testPyth",
+  "days_analysed": 7,
+  "summary": {
+    "total_events": 3,
+    "matched_events": 1,
+    "discarded_events": 2,
+    "survival_rate_pct": 33.3,
+    "discard_rate_pct": 66.7,
+    "commits_analysed": 2,
+    "total_added_lines": 285,
+    "ai_attributed_lines": 50,
+    "ai_density_pct": 17.5,
+    "modification_index": 0.85,
+    "repo_ai_footprint_pct": 0,
+    "total_repo_lines": 0,
+    "categories": {
+      "verbatim": 0,
+      "adapted": 2,
+      "inspired": 0
+    },
+    "merged_prs": 0,
+    "issue_ids_found": [],
+    "commits_with_issues": 0
+  },
+  "commits": [
+    {
+      "sha": "3caaaf3bebe758aa1970884b71ee44c65c375af5",
+      "author": "vishakjai",
+      "message": "Merge remote-tracking branch 'origin/main'",
+      "date": "2026-03-16T14:11:22Z",
+      "filesChanged": 4,
+      "issueIds": [],
+      "pr": null,
+      "matches": []
+    },
+    {
+      "sha": "da73f9d23d048851496643dc0bb3cfa50a10c9c0",
+      "author": "vishakjai",
+      "message": "Initial commit",
+      "date": "2026-03-16T14:04:24Z",
+      "filesChanged": 10,
+      "issueIds": [],
+      "pr": null,
+      "matches": [
+        {
+          "event": {
+            "event_id": "80449d4e-9d32-408f-b4f2-d56435a08a23",
+            "timestamp": "2026-03-16T13:48:52.154Z",
+            "developer_id": "10b5c4d6-c809-4091-9d1a-bfc550431c49",
+            "repo_root": null,
+            "repo_remote": null,
+            "file_path": "tests/New_Parse_csv.py",
+            "languageId": "python",
+            "line_start": 0,
+            "line_end": 25,
+            "char_start": 0,
+            "char_end": 0,
+            "snippet_hash_raw": "5575737b5ca08117d1095a71d96ff4f7e9fb543209d27e307687bec920534de3",
+            "snippet_hash_normalized": "3ae99fdf29a5fbff8078ec1a2eeb321f304e133618fde91a3171c3996baa899a",
+            "snippet_len_chars": 542,
+            "capture_method": "chat_apply_heuristic",
+            "capture_confidence": 0.67
+          },
+          "file": "tests/New_Parse_csv.py",
+          "lineOffset": 0,
+          "windowSize": 25,
+          "matchType": "normalized",
+          "confidence": 0.85,
+          "category": "adapted"
+        },
+        {
+          "event": {
+            "event_id": "80449d4e-9d32-408f-b4f2-d56435a08a23",
+            "timestamp": "2026-03-16T13:48:52.154Z",
+            "developer_id": "10b5c4d6-c809-4091-9d1a-bfc550431c49",
+            "repo_root": null,
+            "repo_remote": null,
+            "file_path": "tests/New_Parse_csv.py",
+            "languageId": "python",
+            "line_start": 0,
+            "line_end": 25,
+            "char_start": 0,
+            "char_end": 0,
+            "snippet_hash_raw": "5575737b5ca08117d1095a71d96ff4f7e9fb543209d27e307687bec920534de3",
+            "snippet_hash_normalized": "3ae99fdf29a5fbff8078ec1a2eeb321f304e133618fde91a3171c3996baa899a",
+            "snippet_len_chars": 542,
+            "capture_method": "chat_apply_heuristic",
+            "capture_confidence": 0.67
+          },
+          "file": "tests/test_determinant.py",
+          "lineOffset": 0,
+          "windowSize": 25,
+          "matchType": "normalized",
+          "confidence": 0.85,
+          "category": "adapted"
+        }
+      ]
+    }
+  ]
+}
